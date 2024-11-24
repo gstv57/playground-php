@@ -1,0 +1,19 @@
+{
+    "name": "gstv/php-playground",
+    
+    "authors": [
+        {
+            "name": "Gustavo de Moraes",
+            "email": "gustavoo.sec@gmail.com"
+        }
+    ],
+    
+    "require": {},
+
+    "autoload": {
+        "psr-4": {
+            "FactoryMethod\\": "src/FactoryMethod/",
+            "Singleton\\": "src/Singleton/"
+        }
+    }
+}
