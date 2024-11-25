@@ -7,7 +7,6 @@ class LogsSingleton
     private function __construct()
     {
     }
-
     /**
      * 
      * @var self $instance Instancia da classe de logs
