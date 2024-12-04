@@ -21,7 +21,6 @@ class Stack {
 		return $this->items;
 	}
 }
-
 $instance = new Stack();
 
 $payload = ['name' => 'Gustavo'];

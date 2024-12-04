@@ -3,20 +3,18 @@
 namespace DataStructures;
 
 class Queue {
+
 	private $items = [];
 
-	public function enqueue($item)
-	{
-		 array_push($this->items, $item);
+	public function enqueue($item) {
+		array_push($this->items, $item);
 	}
 
-	public function dequeue()
-	{
+	public function dequeue() {
 		array_shift($this->items);
 	}
 
-	public function getItems()
-	{
+	public function getItems() {
 		return $this->items;
 	}
 }
@@ -33,5 +31,4 @@ $instance->enqueue($payload_three);
 echo print_r($instance->getItems());
 
 $instance->dequeue();
-
 echo print_r($instance->getItems());
